@@ -10,13 +10,13 @@ React Hotkey Manager is a Context Provider/Consumer that allows registering and 
 ## Installation
 
 ```sh
-npm install @kmdavis/react-hotkey-manager
+npm install react-hotkey-manager
 ```
 
 ## Usage
 
 ```js
-import { HotkeyManager, Hotkeys } from "@kmdavis/react-hotkey-manager";
+import { HotkeyManager, Hotkeys } from "react-hotkey-manager";
 
 <SomewhereNearTheTopOfYourReactStack>
     <HotkeyManager>
@@ -74,8 +74,8 @@ Distributed under the BSD license.
 5. Create a new Pull Request
 
 <!-- Markdown link & img dfn's -->
-[npm-image]: https://img.shields.io/npm/v/@kmdavis/react-hotkey-manager.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/@kmdavis/react-hotkey-manager
-[npm-downloads]: https://img.shields.io/npm/dm/@kmdavis/react-hotkey-manager.svg?style=flat-square
+[npm-image]: https://img.shields.io/npm/v/react-hotkey-manager.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/react-hotkey-manager
+[npm-downloads]: https://img.shields.io/npm/dm/react-hotkey-manager.svg?style=flat-square
 [travis-image]: https://img.shields.io/travis/kmdavis/react-hotkey-manager/master.svg?style=flat-square
 [travis-url]: https://travis-ci.org/kmdavis/react-hotkey-manager

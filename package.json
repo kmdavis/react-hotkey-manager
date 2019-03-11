@@ -1,7 +1,7 @@
 {
     "name": "react-hotkey-manager",
     "description": "TODO",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "keywords": [
         "react",
         "hotkeys"
@@ -12,9 +12,9 @@
     "license": "BSD",
     "author": "Kevan Davis <kevan.davis@me.com>",
     "module": "src/index.js",
-    "main": "dist/react-hotkey-manager.js",
+    "main": "dist/index.js",
     "scripts": {
-        "build": "mkdir -p dist && babel src/index.js --out-file dist/react-hotkey-manager.js",
+        "build": "mkdir -p dist && babel src --out-dir dist && rm -rf dist/__tests__",
         "test": "jest"
     },
     "devDependencies": {
